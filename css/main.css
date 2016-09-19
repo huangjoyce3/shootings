@@ -1,0 +1,16 @@
+/* You'll probably want to add some styles here */
+#map-container {
+	height:800px;
+}
+
+/* Work around for clashing materialize and leaflet styles */
+input[type="checkbox"].leaflet-control-layers-selector,
+input[type="radio"].leaflet-control-layers-selector {
+    position:relative;
+    opacity:1;
+    left:0px;
+}
+
+label > span {
+    color:black;
+}
