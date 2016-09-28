@@ -1,36 +1,42 @@
-// Function to draw your map
-var drawMap = function() {
+// Wait until your documnet is ready
+$(function() {
+    // Function to draw your map
+    var drawMap = function() {
 
-    // Create map and set view
-
-
-    // Create a tile layer variable using the appropriate url
-
-
-    // Add the layer to your map
+        // Create map and set view
 
 
-    // Execute your function to get data
+        // Create a tile layer variable using the appropriate url
 
-};
 
-// Function for getting data
-var getData = function() {
+        // Add the layer to your map
 
-    // Execute an AJAX request to get the data in data/data.csv file
 
-    // Use the PapaParse library to parse the information returned by your request
+        // Execute your function to get data
 
-    // When your request is successful, call your customBuild function
+    };
 
-};
+    // Function for getting data
+    var getData = function() {
 
-// Loop through your data and add the appropriate layers and points
-var customBuild = function() {
-    // Be sure to add each layer to the map
+        // Execute an AJAX request to get the data in data/data.csv file
 
-    // Once layers are on the map, add a leaflet controller that shows/hides layers
+        // Use the PapaParse library to parse the information returned by your request
 
-    // Build a table showing calculated aggregate values
+        // When your request is successful, call your customBuild function
 
-};
+    };
+
+    // Loop through your data and add the appropriate layers and points
+    var customBuild = function() {
+        // Be sure to add each layer to the map
+
+        // Once layers are on the map, add a leaflet controller that shows/hides layers
+
+        // Build a table showing calculated aggregate values
+
+    };
+
+    // Execute your drawMap function
+    drawMap();
+});
