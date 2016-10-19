@@ -1,8 +1,20 @@
 /* You'll probably want to add some styles here */
 #map-container {
-	height:800px;
+	height:600px;
 }
 
+#red{
+	color: red;
+}
+
+.white-text{
+	font-weight: thin;
+	margin: 0px;
+}
+
+.card-panel{
+	margin: 0;
+}
 /* Work around for clashing materialize and leaflet styles */
 input[type="checkbox"].leaflet-control-layers-selector,
 input[type="radio"].leaflet-control-layers-selector {
