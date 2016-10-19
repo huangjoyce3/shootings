@@ -61,7 +61,7 @@ $(function() {
             if(d.killed > 100 || d.injured > 100){
                 r = 100;
             }
-            if(d.killed > d.injured){
+            if(parseInt(d.killed) > parseInt(d.injured)){
                 
                  markerRed = L.circleMarker([d.lat, d.lng], {
                         color: 'red',
